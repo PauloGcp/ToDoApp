@@ -1,7 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http'
-import {MatFormFieldModule} from '@angular/material/form-field';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BoardComponent } from './components/board/board.component';
@@ -23,8 +22,7 @@ import {MatIconModule} from '@angular/material/icon';
     HttpClientModule,
     MatCardModule,
     MatButtonModule,
-    MatIconModule,
-    MatFormFieldModule
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
